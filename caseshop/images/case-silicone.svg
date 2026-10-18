@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9d1f2"/><stop offset="1" stop-color="#9a8fd0"/></linearGradient>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4c9c4"/><stop offset="1" stop-color="#d98a82"/></linearGradient>
+<radialGradient id="glass" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#8a9ad6"/><stop offset=".45" stop-color="#1c2036"/><stop offset="1" stop-color="#05060b"/></radialGradient>
+<linearGradient id="gl" x1="0" y1="0" x2=".8" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset=".42" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="sh" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+<g id="lens"><circle r="17" fill="#11131e" stroke="#fff" stroke-opacity=".4" stroke-width="2.5"/><circle r="11" fill="url(#glass)"/><circle cx="-4" cy="-4" r="3" fill="#fff" fill-opacity=".85"/></g>
+<g id="cam"><rect x="-78" y="-173" width="92" height="92" rx="26" fill="#000" fill-opacity=".14" stroke="#fff" stroke-opacity=".35" stroke-width="2"/><use href="#lens" x="-53" y="-148"/><use href="#lens" x="-53" y="-106"/><use href="#lens" x="-14" y="-127"/><circle cx="-14" cy="-160" r="4.5" fill="#fff3c4"/></g>
+<rect id="shadow" x="-78" y="-167" width="180" height="370" rx="36" fill="#111" fill-opacity=".22" filter="url(#sh)"/>
+<g id="shell"><rect x="-93" y="-118" width="6" height="34" rx="3"/><rect x="87" y="-104" width="6" height="58" rx="3"/><rect x="-90" y="-185" width="180" height="370" rx="36"/><rect x="-90" y="-185" width="180" height="370" rx="36" fill="url(#gl)"/><rect x="-86.5" y="-181.5" width="173" height="363" rx="33" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="2"/></g>
+</defs>
+<g transform="translate(245 245) rotate(10) scale(.86)"><use href="#shadow"/><use href="#shell" fill="url(#b)"/><use href="#cam"/></g>
+<g transform="translate(355 240) rotate(-10) scale(.95)"><use href="#shadow"/><use href="#shell" fill="url(#a)"/><use href="#cam"/></g>
+</svg>

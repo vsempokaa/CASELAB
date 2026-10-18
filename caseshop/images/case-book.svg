@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a8714a"/><stop offset="1" stop-color="#5a321d"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe9a8"/><stop offset="1" stop-color="#c4953a"/></linearGradient>
+<linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2b2b"/><stop offset="1" stop-color="#0f0f0f"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2=".8" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".42" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="sh" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<g transform="translate(420 150) rotate(24)">
+<rect x="-88" y="-48" width="190" height="120" rx="12" fill="#111" fill-opacity=".2" filter="url(#sh)"/>
+<rect x="-95" y="-60" width="190" height="120" rx="12" fill="url(#c)"/>
+<rect x="-95" y="-60" width="190" height="120" rx="12" fill="url(#gl)"/>
+<rect x="-70" y="-28" width="32" height="25" rx="5" fill="url(#gold)"/>
+<rect x="-70" y="22" width="96" height="7" rx="3.5" fill="#fff" fill-opacity=".5"/>
+<rect x="44" y="-36" width="28" height="28" fill="#ff4a1c"/>
+</g>
+<g transform="translate(285 245) rotate(-8) scale(.95)">
+<rect x="-86" y="-176" width="196" height="384" rx="22" fill="#111" fill-opacity=".25" filter="url(#sh)"/>
+<rect x="-98" y="-192" width="196" height="384" rx="22" fill="url(#a)"/>
+<rect x="-98" y="-192" width="20" height="384" rx="10" fill="#000" fill-opacity=".18"/>
+<rect x="-98" y="-192" width="196" height="384" rx="22" fill="url(#gl)"/>
+<rect x="-84" y="-178" width="168" height="356" rx="14" fill="none" stroke="#f1d2ac" stroke-width="2.5" stroke-dasharray="9 6" stroke-opacity=".9"/>
+<rect x="66" y="-34" width="56" height="68" rx="14" fill="#47270f"/>
+<rect x="70" y="-30" width="48" height="60" rx="11" fill="none" stroke="#f1d2ac" stroke-width="2" stroke-dasharray="6 5" stroke-opacity=".7"/>
+<circle cx="98" cy="0" r="12" fill="url(#gold)" stroke="#8a6420" stroke-width="1.5"/>
+<text x="-6" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-style="italic" fill="#000" fill-opacity=".22">CL</text>
+<text x="-7" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-style="italic" fill="#ffe2bf" fill-opacity=".35">CL</text>
+</g>
+</svg>

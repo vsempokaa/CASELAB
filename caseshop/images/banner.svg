@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" width="800" height="760">
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#111" stroke-opacity=".07" stroke-width="1"/></pattern>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9d1f2"/><stop offset="1" stop-color="#9a8fd0"/></linearGradient>
+<linearGradient id="n" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a3c"/><stop offset="1" stop-color="#121214"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#ff7a52"/></linearGradient>
+<radialGradient id="glass" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#8a9ad6"/><stop offset=".45" stop-color="#1c2036"/><stop offset="1" stop-color="#05060b"/></radialGradient>
+<linearGradient id="gl" x1="0" y1="0" x2=".8" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset=".42" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="sh" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+<clipPath id="cp"><rect x="-90" y="-185" width="180" height="370" rx="36"/></clipPath>
+<g id="lens"><circle r="17" fill="#11131e" stroke="#fff" stroke-opacity=".4" stroke-width="2.5"/><circle r="11" fill="url(#glass)"/><circle cx="-4" cy="-4" r="3" fill="#fff" fill-opacity=".85"/></g>
+<g id="cam"><rect x="-78" y="-173" width="92" height="92" rx="26" fill="#000" fill-opacity=".15" stroke="#fff" stroke-opacity=".35" stroke-width="2"/><use href="#lens" x="-53" y="-148"/><use href="#lens" x="-53" y="-106"/><use href="#lens" x="-14" y="-127"/><circle cx="-14" cy="-160" r="4.5" fill="#fff3c4"/></g>
+<rect id="shadow" x="-78" y="-165" width="180" height="370" rx="36" fill="#111" fill-opacity=".28" filter="url(#sh)"/>
+<g id="shell"><rect x="-93" y="-118" width="6" height="34" rx="3"/><rect x="87" y="-104" width="6" height="58" rx="3"/><rect x="-90" y="-185" width="180" height="370" rx="36"/><rect x="-90" y="-185" width="180" height="370" rx="36" fill="url(#gl)"/><rect x="-86.5" y="-181.5" width="173" height="363" rx="33" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2"/></g>
+<g id="ring" fill="none" stroke="#eef1ff"><circle cy="25" r="58" stroke-opacity=".8" stroke-width="6"/><circle cy="25" r="46" stroke-opacity=".25" stroke-width="2"/><path d="M0 92V120" stroke-opacity=".7" stroke-width="7" stroke-linecap="round"/></g>
+</defs>
+<rect width="800" height="760" fill="url(#grid)"/>
+<rect x="420" y="80" width="300" height="580" fill="#ff4a1c"/>
+<g transform="translate(240 410) rotate(-11)"><use href="#shadow"/><use href="#shell" fill="url(#a)"/><use href="#cam"/></g>
+<g transform="translate(575 400) rotate(9)"><use href="#shadow"/><use href="#shell" fill="url(#n)"/><use href="#cam"/><use href="#ring"/></g>
+<g transform="translate(408 380) rotate(-2) scale(1.08)">
+<use href="#shadow"/>
+<g clip-path="url(#cp)"><rect x="-90" y="-185" width="180" height="370" fill="url(#s)"/><circle cx="20" cy="-5" r="52" fill="#fff4d8"/><path d="M-100 45Q-50 15 0 45T100 45V200H-100Z" fill="#3f6fd8"/><path d="M-100 95Q-50 65 0 95T100 95V200H-100Z" fill="#2a4fb0"/><path d="M-100 145Q-50 115 0 145T100 145V200H-100Z" fill="#17306f"/></g>
+<use href="#shell" fill="none"/><use href="#cam"/>
+</g>
+<g fill="none" stroke="#111" stroke-width="1.5">
+<path d="M190 290L120 190H40"/><path d="M450 600L510 700H770"/><path d="M640 250L700 150H790"/>
+</g>
+<g fill="#111"><circle cx="190" cy="290" r="5"/><circle cx="450" cy="600" r="5"/><circle cx="640" cy="250" r="5"/></g>
+<g font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="15" fill="#111">
+<text x="40" y="160" font-weight="700">01 SOFT TOUCH</text><text x="40" y="180">499 UAH</text>
+<text x="770" y="670" text-anchor="end" font-weight="700">05 PRINT / SUNSET</text><text x="770" y="690" text-anchor="end">549 UAH</text>
+<text x="790" y="120" text-anchor="end" font-weight="700">04 MAGSAFE</text><text x="790" y="140" text-anchor="end">699 UAH</text>
+<text x="40" y="735" fill-opacity=".55">CASELAB / SS26 / 06 MODELS</text>
+</g>
+</svg>
